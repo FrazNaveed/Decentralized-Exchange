@@ -1,0 +1,110 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.main img{
+    margin-bottom: 250px;
+}
+
+.swap--card {
+  background-color: #12141a;
+  height: 400px;
+  width: 400px;
+  border-radius: 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 250px;
+}
+.swap--from {
+  height: 80px;
+  width: 90%;
+  background-color: #1c1f26;
+  border-radius: 15px;
+}
+
+.swap--from_heading{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.swap--from_metrics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+    margin: 20px 20px 10px 20px;
+}
+.swap--from_metrics p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.swap--from_metrics select{
+    border: none;
+    text-decoration: none;
+    background-color: #1c1f26;
+    font-size: 25px;
+    color: white;
+}
+
+.swap--arrow{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.swap--to {
+    height: 80px;
+    width: 90%;
+    background-color: #1c1f26;
+    border-radius: 15px;
+}
+
+.swap--to_heading{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.swap--to_metrics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+    margin: 20px 20px 10px 20px;
+}
+.swap--to_metrics p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.swap--to_metrics select{
+    border: none;
+    text-decoration: none;
+    background-color: #1c1f26;
+    font-size: 25px;
+    color: white;
+}
+
+.swap--price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.swap--button {
+  margin: 3px;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 90%;
+  font-weight: bold;
+  background-color: #1c58fb;
+  color: white;
+  font-size: medium;
+}
+.swap--button:hover{
+    background-color: #0945ea;
+}

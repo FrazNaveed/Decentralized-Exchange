@@ -1,0 +1,42 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    height: 10px;
+}
+
+.nav--logo h2{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav--items ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.nav--items a{
+    text-decoration: none;
+    color: white
+}
+.nav--items a:hover{
+    color: rgb(148, 144, 144)
+}
+
+.nav--buttons button{
+    margin: 3px;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    font-weight: bold;
+    background-color: #1c58fb;
+    color: white;
+    font-size: medium;
+}
+.nav--buttons button:hover{
+    background-color: #0945ea;
+}
